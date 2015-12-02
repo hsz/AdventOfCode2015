@@ -9,7 +9,7 @@ module.exports = function () {
     return _.sortBy(v.split('x').map(_.partial(parseInt, _, 10)));
   });
 
-  var part = {
+  return {
 
     one: _.reduce(input, function (sum, v) {
       return sum + 3 * v[0] * v[1] + 2 * v[0] * v[2] + 2 * v[1] * v[2];
@@ -20,8 +20,5 @@ module.exports = function () {
     }, 0)
 
   };
-
-  console.log('part one:', part.one);
-  console.log('part two:', part.two);
 
 };
