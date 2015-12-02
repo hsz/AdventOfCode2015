@@ -1,9 +1,11 @@
 #!/usr/bin/env node
-var argv     = require('yargs').demand(1).argv
-  , colors   = require('colors')
-  , day      = ('0' + argv._[0]).substr(-2)
-  , solution = require('./day' + day)()
-  ;
+var argv   = require('yargs').demand(1).argv
+  , colors = require('colors')
+  , day    = ('0' + argv._[0]).substr(-2)
+  , solution;
+
+process.chdir('./day' + day);
+solution   = require('./day' + day)();
 
 console.log('    Advent of Code    '.green.bgBlack);
 console.log(('  ------- '.green + day.red + ' -------  '.green).bgBlack);

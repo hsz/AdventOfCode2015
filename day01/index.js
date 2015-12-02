@@ -1,11 +1,10 @@
-var _    = require('underscore')
-  , fs   = require('fs')
-  , path = require('path')
+var _  = require('underscore')
+  , fs = require('fs')
   ;
 
 module.exports = function () {
 
-  var input = fs.readFileSync(path.join(__dirname, './input.txt'), 'utf8').split('');
+  var input = fs.readFileSync('input.txt', 'utf8').split('');
 
   return {
 
