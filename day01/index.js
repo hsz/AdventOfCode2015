@@ -1,5 +1,5 @@
-var _ = require('underscore')
-  , fs = require('fs')
+var _    = require('underscore')
+  , fs   = require('fs')
   , path = require('path')
   ;
 
