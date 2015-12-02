@@ -8,7 +8,8 @@
     "url": "git+https://github.com/hsz/AdventOfCode.git"
   },
   "scripts": {
-    "start": "node app.js"
+    "node": "node app.js",
+    "php": "php app.php"
   },
   "dependencies": {
     "colors": "^1.1.2",
