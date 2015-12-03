@@ -14,8 +14,10 @@ module.exports = function () {
     }, 1, {x: 0, y: 0, a: {'0~0': true}}),
 
     two: _.reduce(input, function (sum, v) {
-      return null;
-    }, 0)
+      var r = this.r; this.r = !r;
+      v === '>' ? ++this.x[r] : v === '<' ? --this.x[r] : v === '^' ? ++this.y[r] : --this.y[r];
+      return !this.a[this.x[r] + '~' + this.y[r]] && (this.a[this.x[r] + '~' + this.y[r]] = true) * ++sum || sum;
+    }, 1, {x: {true: 0, false: 0}, y: {true: 0, false: 0}, r: false, a: {'0~0': true}})
 
   };
 
