@@ -1,5 +1,5 @@
-Advent of Code
-==============
+Advent of Code  <sub>hsz 8<sup>:star:</sup></sub>
+=================================================
 
 Here are presented my solutions for the [Advent of Code](http://adventofcode.com) programming puzzles.
 
