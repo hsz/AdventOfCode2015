@@ -1,17 +1,17 @@
 <?php
 
-$input = str_split(file('input.txt')[0]);
+$input = 'bgvyzdsv';
 
 return [
 
-    one => array_reduce($input, function ($sum, $v) use (&$x, &$y, &$a) {
-        $v === '>' ? ++$x : ($v === '<' ? --$x : ($v === '^' ? ++$y : --$y));
-        return $sum + (!isset($a["$x~$y"]) && $a["$x~$y"] = true);
-    }, ($x = $y = 0) && $a = ['0~0' => true]),
+    one => run(function ($i = 0) use ($input) {
+        while (hexdec(substr(md5($input . ++$i), 0, 5)));
+        return $i;
+    }),
 
-    two => array_reduce($input, function ($sum, $v) use (&$x, &$y, &$a, &$r) {
-        ($r = !$r); $v === '>' ? ++$x[$r] : ($v === '<' ? --$x[$r] : ($v === '^' ? ++$y[$r] : --$y[$r]));
-        return $sum + (!isset($a["$x[$r]~$y[$r]"]) && $a["$x[$r]~$y[$r]"] = true);
-    }, ($x = $y = [($r = 0), 0]) && ($a = ['0~0' => true])),
+    two => run(function ($i = 0) use ($input) {
+        while (hexdec(substr(md5($input . ++$i), 0, 6)));
+        return $i;
+    }),
 
 ];
