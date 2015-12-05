@@ -1,4 +1,4 @@
-Advent of Code  <sub>hsz 8<sup>:star:</sup></sub>
+Advent of Code  <sub>hsz 10<sup>:star:</sup></sub>
 =================================================
 
 Here are presented my solutions for the [Advent of Code](http://adventofcode.com) programming puzzles.
@@ -23,8 +23,10 @@ Below there is a quick list to all solutions:
 | 02  | [I Was Told There Would Be No Math][2]      | [:star:](./day02/index.js) | [:star:](./day02/index.php) |
 | 03  | [Perfectly Spherical Houses in a Vacuum][3] | [:star:](./day03/index.js) | [:star:](./day03/index.php) |
 | 04  | [The Ideal Stocking Stuffer][4]             | [:star:](./day04/index.js) | [:star:](./day04/index.php) |
+| 05  | [Doesn't He Have Intern-Elves For This?][5] | [:star:](./day05/index.js) |                             |
 
 [1]: http://adventofcode.com/day/1
 [2]: http://adventofcode.com/day/2
 [3]: http://adventofcode.com/day/3
 [4]: http://adventofcode.com/day/4
+[5]: http://adventofcode.com/day/5
