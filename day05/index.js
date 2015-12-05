@@ -13,7 +13,7 @@ module.exports = function () {
     }, 0),
 
     two: _.reduce(input, function (sum, v) {
-      return sum + (/(..).*\1/.test(v) && /(.)[^\1]\1/.test(v));
+      return sum + (/(..).*\1/.test(v) && /(.).\1/.test(v));
     }, 0)
 
   };
