@@ -4,15 +4,15 @@ module.exports = function () {
 
   var i     = 0
     , input = 'bgvyzdsv'
-    , z     = function (n) {
+    , zeros = function (n) {
         while (!new RegExp('^0{' + n + '}').test(md5(input + ++i)));
         return i;
       };
 
   return {
 
-    one: z(5),
-    two: z(6)
+    one: zeros(5),
+    two: zeros(6)
 
   };
 
