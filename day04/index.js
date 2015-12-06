@@ -2,19 +2,17 @@ var md5 = require('md5');
 
 module.exports = function () {
 
-  var i = 0, input = 'bgvyzdsv';
+  var i     = 0
+    , input = 'bgvyzdsv'
+    , z     = function (n) {
+        while (!new RegExp('^0{' + n + '}').test(md5(input + ++i)));
+        return i;
+      };
 
   return {
 
-    one: (function () {
-      while (!/^0{5}/.test(md5(input + ++i)));
-      return i;
-    }()),
-
-    two: (function () {
-      while (!/^0{6}/.test(md5(input + ++i)));
-      return i;
-    }())
+    one: z(5),
+    two: z(6)
 
   };
 
