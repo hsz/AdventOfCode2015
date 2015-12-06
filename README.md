@@ -23,7 +23,7 @@ Below there is a quick list to all solutions:
 | 02  | [I Was Told There Would Be No Math][2]      | [:star:](./day02/index.js) | [:star:](./day02/index.php) |
 | 03  | [Perfectly Spherical Houses in a Vacuum][3] | [:star:](./day03/index.js) | [:star:](./day03/index.php) |
 | 04  | [The Ideal Stocking Stuffer][4]             | [:star:](./day04/index.js) | [:star:](./day04/index.php) |
-| 05  | [Doesn't He Have Intern-Elves For This?][5] | [:star:](./day05/index.js) |                             |
+| 05  | [Doesn't He Have Intern-Elves For This?][5] | [:star:](./day05/index.js) | [:star:](./day05/index.php) |
 
 [1]: http://adventofcode.com/day/1
 [2]: http://adventofcode.com/day/2
