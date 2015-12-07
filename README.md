@@ -25,10 +25,12 @@ Below there is a quick list to all solutions:
 | 04  | [The Ideal Stocking Stuffer][4]             | [:star:](./day04/index.js) | [:star:](./day04/index.php) |
 | 05  | [Doesn't He Have Intern-Elves For This?][5] | [:star:](./day05/index.js) | [:star:](./day05/index.php) |
 | 06  | [Probably a Fire Hazard][6]                 | [:star:](./day06/index.js) | [:star:](./day06/index.php) |
+| 07  | [Some Assembly Required][7]                 | [:star:](./day07/index.js) | [:star:](./day07/index.php) |
 
 [1]: http://adventofcode.com/day/1
 [2]: http://adventofcode.com/day/2
 [3]: http://adventofcode.com/day/3
 [4]: http://adventofcode.com/day/4
 [5]: http://adventofcode.com/day/5
-[5]: http://adventofcode.com/day/6
+[6]: http://adventofcode.com/day/6
+[7]: http://adventofcode.com/day/7
