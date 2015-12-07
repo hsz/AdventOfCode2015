@@ -17,7 +17,7 @@ module.exports = function () {
         return _.reduce(input, function (sum, v) {
           for (var x = v[1]; x <= v[3]; x++) {
             for (var k, y = v[2]; y <= v[4]; y++) {
-              ((grid[k = x * 1000 + y] = cb(v, grid[k] || 0)) < 0) && (grid[k] = 0);
+              ((grid[k = x * 1000 + y] = cb(v[0], grid[k] || 0)) < 0) && (grid[k] = 0);
             }
           }
           return _.chain(grid).filter().reduce(sumFn, 0);
@@ -28,11 +28,11 @@ module.exports = function () {
   return {
 
     one: light(function (v, c) {
-      return v[0] === null ? !c : v[0];
+      return v === null ? !c : v;
     }),
 
     two: light(function (v, c) {
-      return c + (v[0] === null ? 2 : (+v[0] || -1));
+      return c + (v === null ? 2 : (+v || -1));
     })
 
   };
