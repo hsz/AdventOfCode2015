@@ -13,8 +13,8 @@ module.exports = function () {
     }, 0),
 
     two: _.findIndex(input, function (v) {
-      return -1 === (this.floor += +(v === '(') || -1) + 1;
-    }, {floor: 0})
+      return -1 === (this.floor += +(v === '(') || -1);
+    }, {floor: 0}) + 1
 
   };
 
