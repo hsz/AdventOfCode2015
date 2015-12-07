@@ -9,7 +9,8 @@
   },
   "scripts": {
     "nodejs": "node app.js",
-    "php": "php app.php"
+    "php": "php app.php",
+    "python": "python2 app.py"
   },
   "dependencies": {
     "colors": "^1.1.2",
