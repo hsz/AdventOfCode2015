@@ -1,4 +1,4 @@
-Advent of Code  <sub>hsz 14<sup>:star:</sup></sub>
+Advent of Code  <sub>hsz 16<sup>:star:</sup></sub>
 =================================================
 
 Here are presented my solutions for the [Advent of Code](http://adventofcode.com) programming puzzles.
@@ -26,6 +26,7 @@ Below there is a quick list to all solutions:
 | 05  | [Doesn't He Have Intern-Elves For This?][5] | [:star:](./day05/index.js) | [:star:](./day05/index.php) | |
 | 06  | [Probably a Fire Hazard][6]                 | [:star:](./day06/index.js) | [:star:](./day06/index.php) | |
 | 07  | [Some Assembly Required][7]                 | [:star:](./day07/index.js) | [:star:](./day07/index.php) | |
+| 08  | [Matchsticks][8]                            | [:star:](./day08/index.js) | | |
 
 [1]: http://adventofcode.com/day/1
 [2]: http://adventofcode.com/day/2
@@ -34,3 +35,4 @@ Below there is a quick list to all solutions:
 [5]: http://adventofcode.com/day/5
 [6]: http://adventofcode.com/day/6
 [7]: http://adventofcode.com/day/7
+[8]: http://adventofcode.com/day/8
