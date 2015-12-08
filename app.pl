@@ -2,7 +2,7 @@ use strict;
 use Cwd;
 use Term::ANSIColor qw(:constants);
 
-my $day = '01';
+my $day = sprintf("%02s", $ARGV[0]);
 
 chdir 'day' . $day;
 require 'index.pl';
