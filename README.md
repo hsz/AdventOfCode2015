@@ -20,13 +20,13 @@ Below there is a quick list to all solutions:
 | Day | Name                                        | NodeJS                     | PHP                         | Python                        | Perl                       |
 |:---:| ------------------------------------------- |:--------------------------:|:---------------------------:|:-----------------------------:|:--------------------------:|
 | 01  | [Not Quite Lisp][1]                         | [:star:](./day01/index.js) | [:star:](./day01/index.php) | [:star:](./day01/__init__.py) | [:star:](./day01/index.pl) |
-| 02  | [I Was Told There Would Be No Math][2]      | [:star:](./day02/index.js) | [:star:](./day02/index.php) | | |
+| 02  | [I Was Told There Would Be No Math][2]      | [:star:](./day02/index.js) | [:star:](./day02/index.php) |                               | [:star:](./day02/index.pl) |
 | 03  | [Perfectly Spherical Houses in a Vacuum][3] | [:star:](./day03/index.js) | [:star:](./day03/index.php) | | |
 | 04  | [The Ideal Stocking Stuffer][4]             | [:star:](./day04/index.js) | [:star:](./day04/index.php) | | |
 | 05  | [Doesn't He Have Intern-Elves For This?][5] | [:star:](./day05/index.js) | [:star:](./day05/index.php) | | |
 | 06  | [Probably a Fire Hazard][6]                 | [:star:](./day06/index.js) | [:star:](./day06/index.php) | | |
 | 07  | [Some Assembly Required][7]                 | [:star:](./day07/index.js) | [:star:](./day07/index.php) | | |
-| 08  | [Matchsticks][8]                            | [:star:](./day08/index.js) | | | |
+| 08  | [Matchsticks][8]                            | [:star:](./day08/index.js) |                             |                               | [:star:](./day08/index.pl) |
 
 [1]: http://adventofcode.com/day/1
 [2]: http://adventofcode.com/day/2
