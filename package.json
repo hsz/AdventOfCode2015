@@ -9,6 +9,7 @@
   },
   "scripts": {
     "nodejs": "node app.js",
+    "perl": "perl app.pl",
     "php": "php app.php",
     "python": "python2 app.py"
   },
