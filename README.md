@@ -1,4 +1,4 @@
-Advent of Code  <sub>hsz 18<sup>:star:</sup></sub>
+Advent of Code  <sub>hsz 20<sup>:star:</sup></sub>
 =================================================
 
 Here are presented my solutions for the [Advent of Code](http://adventofcode.com) programming puzzles.
@@ -28,6 +28,7 @@ Below there is a quick list to all solutions:
 | 07  | [Some Assembly Required][7]                 | [:star:](./day07/index.js) | [:star:](./day07/index.php) | | |
 | 08  | [Matchsticks][8]                            | [:star:](./day08/index.js) |                             |                               | [:star:](./day08/index.pl) |
 | 09  | [All in a Single Night][9]                  | [:star:](./day09/index.js) |                             | | |
+| 10  | [Elves Look, Elves Say][10]                 | [:star:](./day10/index.js) |                             | | |
 
 [1]: http://adventofcode.com/day/1
 [2]: http://adventofcode.com/day/2
@@ -38,3 +39,4 @@ Below there is a quick list to all solutions:
 [7]: http://adventofcode.com/day/7
 [8]: http://adventofcode.com/day/8
 [9]: http://adventofcode.com/day/9
+[10]: http://adventofcode.com/day/10
