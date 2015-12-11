@@ -1,4 +1,4 @@
-Advent of Code  <sub>hsz 20<sup>:star:</sup></sub>
+Advent of Code  <sub>hsz 22<sup>:star:</sup></sub>
 =================================================
 
 Here are presented my solutions for the [Advent of Code](http://adventofcode.com) programming puzzles.
