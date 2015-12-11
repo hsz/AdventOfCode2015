@@ -36,7 +36,7 @@ Below there is a quick list of all available solutions:
 | 08  | [Matchsticks][8]                            | [:star:](./day08/index.js) |                             |                               | [:star:](./day08/index.pl) |
 | 09  | [All in a Single Night][9]                  | [:star:](./day09/index.js) |                             |                               |                            |
 | 10  | [Elves Look, Elves Say][10]                 | [:star:](./day10/index.js) |                             |                               |                            |
-| 11  | [Corporate Policy][11]                      | [:star:](./day11/index.js) |                             |                               |                            |
+| 11  | [Corporate Policy][11]                      | [:star:](./day11/index.js) |                             |                               | [:star:](./day11/index.pl) |
 
 [1]: http://adventofcode.com/day/1
 [2]: http://adventofcode.com/day/2
