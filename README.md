@@ -1,4 +1,4 @@
-Advent of Code  <sub>hsz 24<sup>:star:</sup></sub>
+Advent of Code  <sub>hsz 26<sup>:star:</sup></sub>
 =================================================
 
 Here are presented my solutions for the [Advent of Code](http://adventofcode.com) programming puzzles.
@@ -38,6 +38,7 @@ Below there is a quick list of all available solutions:
 | 10  | [Elves Look, Elves Say][10]                 | [:star:](./day10/index.js) |                             |                               |                            |
 | 11  | [Corporate Policy][11]                      | [:star:](./day11/index.js) |                             |                               | [:star:](./day11/index.pl) |
 | 12  | [JSAbacusFramework.io][12]                  | [:star:](./day12/index.js) |                             |                               |                            |
+| 13  | [Knights of the Dinner Table][13]           | [:star:](./day13/index.js) |                             |                               |                            |
 
 [1]: http://adventofcode.com/day/1
 [2]: http://adventofcode.com/day/2
@@ -51,3 +52,4 @@ Below there is a quick list of all available solutions:
 [10]: http://adventofcode.com/day/10
 [11]: http://adventofcode.com/day/11
 [12]: http://adventofcode.com/day/12
+[13]: http://adventofcode.com/day/13
