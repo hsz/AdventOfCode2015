@@ -5,7 +5,7 @@ var _  = require('lodash')
 module.exports = function () {
 
   var tape  = { children: 3, cats: 7, samoyeds: 2, pomeranians: 3, akitas: 0, vizslas: 0, goldfish: 5, trees: 3, cars: 2, perfumes: 1 }
-    , input = fs.readFileSync('input.txt', 'utf8').split('\n').map(function (v, k) {
+    , input = fs.readFileSync('input.txt', 'utf8').split('\n').map(function (v) {
         return _.object(v.match(/\b[a-z]+/g), _.rest(v.match(/\d+/g)).map(_.parseInt));
       })
     ;
