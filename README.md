@@ -1,4 +1,4 @@
-Advent of Code  <sub>hsz 30<sup>:star:</sup></sub>
+Advent of Code  <sub>hsz 32<sup>:star:</sup></sub>
 =================================================
 
 Here are presented my solutions for the [Advent of Code](http://adventofcode.com) programming puzzles.
@@ -41,6 +41,7 @@ Below there is a quick list of all available solutions:
 | 13  | [Knights of the Dinner Table][13]           | [:star:](./day13/index.js) |                             |                               |                            |
 | 14  | [Reindeer Olympics][14]                     | [:star:](./day14/index.js) |                             |                               |                            |
 | 15  | [Science for Hungry People][15]             | [:star:](./day15/index.js) |                             |                               |                            |
+| 15  | [Aunt Sue][15]                              | [:star:](./day16/index.js) |                             |                               |                            |
 
 [1]: http://adventofcode.com/day/1
 [2]: http://adventofcode.com/day/2
@@ -57,3 +58,4 @@ Below there is a quick list of all available solutions:
 [13]: http://adventofcode.com/day/13
 [14]: http://adventofcode.com/day/14
 [15]: http://adventofcode.com/day/15
+[16]: http://adventofcode.com/day/16
