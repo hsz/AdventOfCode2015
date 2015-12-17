@@ -1,4 +1,6 @@
 #!/usr/bin/env node
+'use strict';
+
 var argv   = require('yargs').demand(1).argv
   , colors = require('colors')
   , day    = ('0' + argv._[0]).substr(-2)
