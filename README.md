@@ -1,4 +1,4 @@
-Advent of Code  <sub>hsz 34<sup>:star:</sup></sub>
+Advent of Code  <sub>hsz 36<sup>:star:</sup></sub>
 =================================================
 
 Here are presented my solutions for the [Advent of Code](http://adventofcode.com) programming puzzles.
@@ -42,7 +42,8 @@ Below there is a quick list of all available solutions:
 | 14  | [Reindeer Olympics][14]                     | [:star:](./day14/index.js) |                             |                               |                            |
 | 15  | [Science for Hungry People][15]             | [:star:](./day15/index.js) |                             |                               |                            |
 | 16  | [Aunt Sue][16]                              | [:star:](./day16/index.js) |                             |                               |                            |
-| 16  | [No Such Thing as Too Much][15]             | [:star:](./day17/index.js) |                             |                               |                            |
+| 17  | [No Such Thing as Too Much][17]             | [:star:](./day17/index.js) |                             |                               |                            |
+| 18  | [Like a GIF For Your Yard][17]              | [:star:](./day18/index.js) |                             |                               |                            |
 
 [1]: http://adventofcode.com/day/1
 [2]: http://adventofcode.com/day/2
@@ -61,3 +62,4 @@ Below there is a quick list of all available solutions:
 [15]: http://adventofcode.com/day/15
 [16]: http://adventofcode.com/day/16
 [17]: http://adventofcode.com/day/17
+[18]: http://adventofcode.com/day/18
