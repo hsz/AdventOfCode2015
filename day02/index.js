@@ -1,11 +1,12 @@
-var _  = require('underscore')
+'use strict';
+var _  = require('lodash')
   , fs = require('fs')
   ;
 
 module.exports = function () {
 
   var input = fs.readFileSync('input.txt', 'utf8').split('\n').map(function (v) {
-    return _.sortBy(v.split('x').map(_.partial(parseInt, _, 10)));
+    return _.sortBy(_.map(v.split('x'), _.parseInt));
   });
 
   return {

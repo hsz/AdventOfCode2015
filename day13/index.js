@@ -1,4 +1,5 @@
-var _  = require('underscore')
+'use strict';
+var _  = require('lodash')
   , fs = require('fs')
   ;
 

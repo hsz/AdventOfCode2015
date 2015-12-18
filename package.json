@@ -1,6 +1,6 @@
 {
   "name": "AdventOfCode",
-  "version": "2015.12.7",
+  "version": "2015.12.18",
   "author": "Jakub Chrzanowski",
   "license": "ISC",
   "repository": {
@@ -18,7 +18,6 @@
     "lodash": "^3.10.1",
     "md5": "^2.0.0",
     "slang": "^0.3.0",
-    "underscore": "^1.8.3",
     "yargs": "^3.30.0"
   },
   "devDependencies": {}

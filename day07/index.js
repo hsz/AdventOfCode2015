@@ -1,5 +1,5 @@
-var _  = require('underscore')
-  , fs = require('fs')
+'use strict';
+var _  = require('lodash')  , fs = require('fs')
   ;
 
 module.exports = function () {
@@ -9,14 +9,11 @@ module.exports = function () {
         return (map[v.dest] = v, map);
       }, {})
     , asmbl = function (map) {
-        while (_.filter(map, function (x) {
-          return _.isObject(x);
-        }).length) {
+        while (_.filter(map, _.isObject).length) {
           _.map(map, function (v) {
             if (_.isObject(v) && !_.isObject(map[v.a]) && !_.isObject(map[v.b])) {
               var a = map[v.a] === undefined ? v.a : map[v.a]
                 , b = map[v.b] === undefined ? v.b : map[v.b];
-
               map[v.dest] = v.op === 'AND' ? a & b : (v.op === 'OR' ? a | b : (v.op === 'LSHIFT' ? a << b : (v.op === 'RSHIFT' ? a >> b : (v.op === 'NOT' ? 65535 - b : b))));
             }
           });
