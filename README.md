@@ -1,7 +1,7 @@
-Advent of Code  <sub>hsz 36<sup>:star:</sup></sub>
+Advent of Code 2015 <sub>hsz 36<sup>:star:</sup></sub>
 =================================================
 
-Here are presented my solutions for the [Advent of Code](http://adventofcode.com) programming puzzles.
+Here are presented my solutions for the [Advent of Code](http://adventofcode.com/2015) programming puzzles.
 
 For every day I present the solutions in various languages: `NodeJS`,`PHP`, `Python` and `Perl`.
 
@@ -45,21 +45,21 @@ Below there is a quick list of all available solutions:
 | 17  | [No Such Thing as Too Much][17]             | [:star:](./day17/index.js) |                             |                               |                            |
 | 18  | [Like a GIF For Your Yard][17]              | [:star:](./day18/index.js) |                             |                               |                            |
 
-[1]: http://adventofcode.com/day/1
-[2]: http://adventofcode.com/day/2
-[3]: http://adventofcode.com/day/3
-[4]: http://adventofcode.com/day/4
-[5]: http://adventofcode.com/day/5
-[6]: http://adventofcode.com/day/6
-[7]: http://adventofcode.com/day/7
-[8]: http://adventofcode.com/day/8
-[9]: http://adventofcode.com/day/9
-[10]: http://adventofcode.com/day/10
-[11]: http://adventofcode.com/day/11
-[12]: http://adventofcode.com/day/12
-[13]: http://adventofcode.com/day/13
-[14]: http://adventofcode.com/day/14
-[15]: http://adventofcode.com/day/15
-[16]: http://adventofcode.com/day/16
-[17]: http://adventofcode.com/day/17
-[18]: http://adventofcode.com/day/18
+[1]: http://adventofcode.com/2015/day/1
+[2]: http://adventofcode.com/2015/day/2
+[3]: http://adventofcode.com/2015/day/3
+[4]: http://adventofcode.com/2015/day/4
+[5]: http://adventofcode.com/2015/day/5
+[6]: http://adventofcode.com/2015/day/6
+[7]: http://adventofcode.com/2015/day/7
+[8]: http://adventofcode.com/2015/day/8
+[9]: http://adventofcode.com/2015/day/9
+[10]: http://adventofcode.com/2015/day/10
+[11]: http://adventofcode.com/2015/day/11
+[12]: http://adventofcode.com/2015/day/12
+[13]: http://adventofcode.com/2015/day/13
+[14]: http://adventofcode.com/2015/day/14
+[15]: http://adventofcode.com/2015/day/15
+[16]: http://adventofcode.com/2015/day/16
+[17]: http://adventofcode.com/2015/day/17
+[18]: http://adventofcode.com/2015/day/18
